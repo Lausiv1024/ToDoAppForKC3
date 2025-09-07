@@ -1,0 +1,19 @@
+﻿@ToDoAppForKC3.ApiService_HostAddress = https://localhost:7329
+
+
+GET {{ToDoAppForKC3.ApiService_HostAddress}}/api/todolist
+
+###
+
+GET {{ToDoAppForKC3.ApiService_HostAddress}}/api/todolist/todolists
+
+###
+
+POST {{ToDoAppForKC3.ApiService_HostAddress}}/api/todolist
+Content-Type: application/json
+
+{
+"Id":3,"Title" : "Test","Description" : "feature","IsCompleted" : false
+}
+
+###
